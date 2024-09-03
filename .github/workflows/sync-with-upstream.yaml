@@ -14,6 +14,7 @@ jobs:
       - uses: tgymnich/fork-sync@v1.8
         with:
           owner: matthew-carroll
+          repo: flutter
           base: master
           head: master
           pr_title: Sync latest upstream Flutter framework changes
